@@ -1,0 +1,37 @@
+# SmartTrip AI — Git Ignore Rules
+
+# Python virtual environment
+.venv/
+venv/
+env/
+
+# Environment secrets — NEVER commit this
+.env
+
+# Django compiled files
+*.pyc
+__pycache__/
+*.pyo
+
+# Django static/media (collected at deploy time)
+staticfiles/
+mediafiles/
+
+# Database
+db.sqlite3
+
+# Node.js
+frontend/node_modules/
+frontend/build/
+
+# OS junk
+.DS_Store
+Thumbs.db
+
+# IDE settings
+.vscode/
+.idea/
+*.swp
+
+# Logs
+*.log

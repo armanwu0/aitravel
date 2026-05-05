@@ -1,0 +1,29 @@
+# SmartTrip AI — Python Dependencies
+# Developed by Arman Ansari
+
+# Core Framework
+django>=5.0
+djangorestframework
+
+# Cross-origin requests (React frontend access)
+django-cors-headers
+
+# Environment variable management
+python-dotenv
+
+# Google Gemini AI SDK
+google-genai
+
+# Database
+psycopg2-binary          # PostgreSQL adapter
+dj-database-url          # Parse DATABASE_URL from env
+
+# Static file serving (production)
+whitenoise
+
+# WSGI server for production
+gunicorn
+
+# Utilities
+requests
+openpyxl                 # Excel export support (budget reports)
